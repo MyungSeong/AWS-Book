@@ -10,15 +10,12 @@ sourceCompatibility = '1.8'
 
 repositories {
 	mavenCentral()
-	jcenter()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-	implementation('org.springframework.boot:spring-boot-starter-web')
+	implementation('org.springframework.boot:spring-boot-starter-com.example.AWSBook.web')
 	implementation('org.springframework.boot:spring-boot-starter-mustache')
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
 
 	// lombok
 	implementation('org.projectlombok:lombok')
